@@ -6,6 +6,7 @@ const npc = newNonPlayableCharacter(50, 300)
 
 // have the NPC start walking east immediately
 npc.walkEast(2000)
+.then(() => {console.log('Done walking')})
 
 // Create the inventory
 const inventory = newInventory()
